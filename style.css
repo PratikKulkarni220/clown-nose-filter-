@@ -1,0 +1,31 @@
+canvas{
+    width: 450px;
+    height: 450px;
+    animation-name:example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+border-width: 2.5px;
+border: black;
+border-style: double;
+}
+
+@keyframes example{
+from{box-shadow: 23px 13px 34px red;}
+to{box-shadow: 21px 32px 33px cyan;}
+
+}
+
+h3{
+font-size: 40px !important;
+font-style:italic;
+
+}
+.take_img{
+    font-size: 29px;
+}
+
+.take_img:hover{
+background-color: teal;
+font-size: 35px;
+
+}
